@@ -28,15 +28,15 @@ No tutorials copy-pasted blindly — every notebook here is something I've actua
 <tr><th>Stage</th><th>Topic</th><th>Status</th><th>Notebooks</th></tr>
 
 <tr><td rowspan="5">📊 Data Handling & Viz</td>
-<td>NumPy</td><td>✅ Done</td><td><a href="./01-numpy/numpy_learning_notes.ipynb">Course</a> · <a href="./01-numpy/numpy_project.ipynb" onclick="return false;">Project</a></td></tr>
+<td>NumPy</td><td>✅ Done</td><td><a href="./01-numpy/numpy_learning_notes.ipynb">Course</a> · <a href="./01-numpy/" onclick="return false;">Project</a></td></tr>
 
-<tr><td>Pandas</td><td>✅ Done</td><td><a href="./02-pandas/pandas_learning_notes.ipynb">Course</a> · <a href="./02-pandas/pandas_project.ipynb">Project</a></td></tr>
+<tr><td>Pandas</td><td>✅ Done</td><td><a href="./02-pandas/pandas_learning_notes.ipynb">Course</a> · <a href="./02-pandas/">Project</a></td></tr>
 
-<tr><td>Matplotlib</td><td>✅ Done</td><td><a href="./03-matplotlib/matplotlib_course.ipynb">Course</a> · <a href="./03-matplotlib/matplotlib_project.ipynb">Project</a></td></tr>
+<tr><td>Matplotlib</td><td>✅ Done</td><td><a href="./03-data-visualization/data_visualization_learning_notes.ipynb">Course</a> · <a href="./03-data-visualization/">Project</a></td></tr>
 
-<tr><td>Seaborn</td><td>✅ Done</td><td><a href="./04-seaborn/seaborn_course.ipynb">Course</a> · <a href="./04-seaborn/seaborn_project.ipynb">Project</a></td></tr>
+<tr><td>Seaborn</td><td>✅ Done</td><td><a href="./03-data-visualization/data_visualization_learning_notes.ipynb">Course</a> · <a href="./03-data-visualization/">Project</a></td></tr>
 
-<tr><td>Plotly</td><td>✅ Done</td><td><a href="./05-plotly/plotly_course.ipynb">Course</a> · <a href="./05-plotly/plotly_project.ipynb">Project</a></td></tr>
+<tr><td>Plotly</td><td>✅ Done</td><td><a href="./03-data-visualization/data_visualization_learning_notes.ipynb">Course</a> · <a href="./03-data-visualization/">Project</a></td></tr>
 
 <tr><td rowspan="2">📈 Foundations & ML</td>
 <td>Statistics</td><td>🔶 In Progress</td><td>—</td></tr>
