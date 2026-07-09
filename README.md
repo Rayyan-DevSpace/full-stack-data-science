@@ -28,7 +28,7 @@ No tutorials copy-pasted blindly — every notebook here is something I've actua
 <tr><th>Stage</th><th>Topic</th><th>Status</th><th>Notebooks</th></tr>
 
 <tr><td rowspan="5">📊 Data Handling & Viz</td>
-<td>NumPy</td><td>✅ Done</td><td><a href="./01-numpy/numpy_course.ipynb">Course</a> · <a href="./01-numpy/numpy_project.ipynb">Project</a></td></tr>
+<td>NumPy</td><td>✅ Done</td><td><a href="./01-numpy/numpy_notes.ipynb">Course</a> · <a href="./01-numpy/numpy_project.ipynb" onclick="return false;">Project</a></td></tr>
 
 <tr><td>Pandas</td><td>✅ Done</td><td><a href="./02-pandas/pandas_course.ipynb">Course</a> · <a href="./02-pandas/pandas_project.ipynb">Project</a></td></tr>
 
@@ -36,10 +36,10 @@ No tutorials copy-pasted blindly — every notebook here is something I've actua
 
 <tr><td>Seaborn</td><td>✅ Done</td><td><a href="./04-seaborn/seaborn_course.ipynb">Course</a> · <a href="./04-seaborn/seaborn_project.ipynb">Project</a></td></tr>
 
-<tr><td>Plotly</td><td>🔶 In Progress</td><td><a href="./05-plotly/plotly_course.ipynb">Course</a> · <a href="./05-plotly/plotly_project.ipynb">Project</a></td></tr>
+<tr><td>Plotly</td><td>✅ Done</td><td><a href="./05-plotly/plotly_course.ipynb">Course</a> · <a href="./05-plotly/plotly_project.ipynb">Project</a></td></tr>
 
 <tr><td rowspan="2">📈 Foundations & ML</td>
-<td>Statistics</td><td>🔜 Up Next</td><td>—</td></tr>
+<td>Statistics</td><td>🔶 In Progress</td><td>—</td></tr>
 
 <tr><td>Machine Learning</td><td>🔜 Up Next</td><td>—</td></tr>
 
@@ -57,6 +57,7 @@ Every topic follows the same two-file convention:
 0X-topic-name/
 ├── topic_course.ipynb    → notes, concepts, hands-on practice
 └── topic_project.ipynb   → a small project applying the topic
+
 ```
 
 <details>
@@ -65,28 +66,23 @@ Every topic follows the same two-file convention:
 ```text
 learning-journey/
 ├── 01-numpy/
-│   ├── numpy_course.ipynb
+│   ├── numpy_notes.ipynb
 │   └── numpy_project.ipynb
 ├── 02-pandas/
-│   ├── pandas_course.ipynb
+│   ├── pandas_notes.ipynb
 │   └── pandas_project.ipynb
-├── 03-matplotlib/
-│   ├── matplotlib_course.ipynb
-│   └── matplotlib_project.ipynb
-├── 04-seaborn/
-│   ├── seaborn_course.ipynb
-│   └── seaborn_project.ipynb
-├── 05-plotly/
-│   ├── plotly_course.ipynb
-│   └── plotly_project.ipynb
-├── 06-statistics/
-│   ├── statistics_course.ipynb
+├── 03-data-visualization/ `matplotlib`, `seaborn`, `plotly`
+│   ├── data_visualization_notes.ipynb
+│   └── data_visualization_project.ipynb
+├── 04-statistics/
+│   ├── statistics_notes.ipynb
 │   └── statistics_project.ipynb
-├── 07-machine-learning/
-│   ├── ml_course.ipynb
+├── 05-machine-learning/
+│   ├── ml_notes.ipynb
 │   └── ml_project.ipynb
 ├── requirements.txt
 └── README.md
+
 ```
 
 </details>
@@ -102,6 +98,7 @@ git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 pip install -r requirements.txt
 jupyter notebook
+
 ```
 
 ---
