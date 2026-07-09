@@ -28,9 +28,9 @@ No tutorials copy-pasted blindly — every notebook here is something I've actua
 <tr><th>Stage</th><th>Topic</th><th>Status</th><th>Notebooks</th></tr>
 
 <tr><td rowspan="5">📊 Data Handling & Viz</td>
-<td>NumPy</td><td>✅ Done</td><td><a href="./01-numpy/numpy_notes.ipynb">Course</a> · <a href="./01-numpy/numpy_project.ipynb" onclick="return false;">Project</a></td></tr>
+<td>NumPy</td><td>✅ Done</td><td><a href="./01-numpy/numpy_learning_notes.ipynb">Course</a> · <a href="./01-numpy/numpy_project.ipynb" onclick="return false;">Project</a></td></tr>
 
-<tr><td>Pandas</td><td>✅ Done</td><td><a href="./02-pandas/pandas_course.ipynb">Course</a> · <a href="./02-pandas/pandas_project.ipynb">Project</a></td></tr>
+<tr><td>Pandas</td><td>✅ Done</td><td><a href="./02-pandas/pandas_learning_notes.ipynb">Course</a> · <a href="./02-pandas/pandas_project.ipynb">Project</a></td></tr>
 
 <tr><td>Matplotlib</td><td>✅ Done</td><td><a href="./03-matplotlib/matplotlib_course.ipynb">Course</a> · <a href="./03-matplotlib/matplotlib_project.ipynb">Project</a></td></tr>
 
@@ -55,7 +55,7 @@ Every topic follows the same two-file convention:
 
 ```text
 0X-topic-name/
-├── topic_course.ipynb    → notes, concepts, hands-on practice
+├── topic_learning_notes.ipynb    → notes, concepts, hands-on practice
 └── topic_project.ipynb   → a small project applying the topic
 
 ```
@@ -66,19 +66,19 @@ Every topic follows the same two-file convention:
 ```text
 learning-journey/
 ├── 01-numpy/
-│   ├── numpy_notes.ipynb
+│   ├── numpy_learning_notes.ipynb
 │   └── numpy_project.ipynb
 ├── 02-pandas/
-│   ├── pandas_notes.ipynb
+│   ├── pandas_learning_notes.ipynb
 │   └── pandas_project.ipynb
 ├── 03-data-visualization/ `matplotlib`, `seaborn`, `plotly`
-│   ├── data_visualization_notes.ipynb
+│   ├── data_visualization_learning_notes.ipynb
 │   └── data_visualization_project.ipynb
 ├── 04-statistics/
-│   ├── statistics_notes.ipynb
+│   ├── statistics_learning_notes.ipynb
 │   └── statistics_project.ipynb
 ├── 05-machine-learning/
-│   ├── ml_notes.ipynb
+│   ├── ml_learning_notes.ipynb
 │   └── ml_project.ipynb
 ├── requirements.txt
 └── README.md
