@@ -39,9 +39,9 @@ No tutorials copy-pasted blindly — every notebook here is something I've actua
 <tr><td>Plotly</td><td>✅ Done</td><td><a href="./03-data-visualization/data_visualization_learning_notes.ipynb">Course</a> · <a href="./03-data-visualization/">Project</a></td></tr>
 
 <tr><td rowspan="2">📈 Foundations & ML</td>
-<td>Statistics</td><td>🔶 In Progress</td><td>—</td></tr>
+<td>Statistics</td><td>✅ Done</td><td><a href="./04_statistics/statistics_learning_notes">Course</a> · <a href=".//04_statistics/statistics_codes">Codes</a></td></tr>
 
-<tr><td>Machine Learning</td><td>🔜 Up Next</td><td>—</td></tr>
+<tr><td>Machine Learning</td><td>🔶 In Progress</td><td>—</td></tr>
 
 </table>
 
